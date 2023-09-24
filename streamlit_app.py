@@ -1,15 +1,10 @@
 import streamlit
-streamlit.title('My Portfolio')
-streamlit.header('My Services')
-streamlit.text('Data Analysis')
-streamlit.text('Data Visualization')
-streamlit.text('Business Intelligence')
-streamlit.text('power BI consultancy')
+streamlit.title('My Parents New Healthy Diner')
+streamlit.header('Breakfast Favourites')
+streamlit.text('🥣Omega 3 & Blueberry Oatmeal')
+streamlit.text('🥗Kale, Spinach & Rocket Smoothie')
+streamlit.text('🐔Hard-Boiled Free-Range Egg')
+streamlit.text('🥑🍞Avocado Toast')
 
-streamlit.header('Price')
-streamlit.text('Go ahead and shoot me a quick message here- mba.gupta.vivek@gmail.com')
-
-streamlit.header('Contract type')
-streamlit.text('Monthly')
-streamlit.text('Yearly')
-streamlit.text('Hourly')
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+ 
