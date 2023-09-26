@@ -38,7 +38,7 @@ try:
          back_from_function = get_fruityvice_data(fruit_choice)
          streamlit.dataframe(back_from_function)
 
-except URLError as e:
+#except URLError as e:
 
 #snowflake_connector_import
 streamlit.header("The fruit list contains:")
@@ -54,6 +54,7 @@ if streamlit.button('Get fruit load list'):
      my_data_rows = get_fruit_load_list()
      streamlit.dataframe(my_data_rows)
 #stop
+except URLError as e:
 streamlit.stop()
 
 
